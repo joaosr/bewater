@@ -339,6 +339,8 @@ ul.banner-social-buttons {
 
 footer {
     padding: 50px 0;
+    background: whitesmoke;
+    color: black;
 }
 
 footer p {
