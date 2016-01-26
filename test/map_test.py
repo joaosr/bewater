@@ -1,4 +1,4 @@
-from .biomas.application.views  import biomas_map
+#from biomas.application.views  import biomas_map
 import unittest
 
 class TestMap(unittest.TestCase):
@@ -11,5 +11,5 @@ class TestMap(unittest.TestCase):
         _map = {"mapid": "ahsuahsuhsua", "token": "ashuahsuahusha"}
         self.assertEqual(_map.keys(), ["mapid", "token"])
 
-    if __name__ == __main__:
+    if __name__ == '__main__':
         unittest.main()
