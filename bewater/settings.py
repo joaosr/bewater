@@ -45,7 +45,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'bewater.application',
+    'bewater.core',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -77,7 +77,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'bewater.wsgi.application'
+WSGI_APPLICATION = 'bewater.wsgi.core'
 
 
 # Database

@@ -7,5 +7,5 @@ urlpatterns = [
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^$', 'bewater.application.views.home', name='home'),
+    url(r'^$', 'bewater.core.views.home', name='home'),
 ]
