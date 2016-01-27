@@ -77,7 +77,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'bewater.core'
+WSGI_APPLICATION = 'bewater.wsgi.application'
 
 
 # Database
