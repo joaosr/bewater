@@ -1,1 +1,1 @@
-web: gunicorn bewater.wsgi --log-file -
+web: gunicorn bewater.wsgi 
